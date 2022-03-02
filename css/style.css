@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+:root{
+	--color-bg-gris: #f8f8f8;
+	--color-verde: #4caf50;
+}
+
+body{
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	color: #888;
+}
+a{
+	color: #888888;
+	text-decoration: none;
+}
+a:hover{
+	color: var(--color-verde);
+}
+
+h1,h2,h3,h4{
+	color:#303030 ;
+}
+
+header{
+	background-color: #000000;
+	padding: 10px 0;
+}
+
+header i{
+	color: #FFFFFF;
+}
+header img{
+	width: 140px;
+}
+#hero{
+	text-align: center;
+	background-image: url("../img/business-2.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+}
+#hero h3{
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF
+}
+#hero h1{
+	font-size: 40px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: #FFFFFF
+}
+#hero .btn,
+.btn-engage{
+	padding: 15px 30px;
+	background-color: #4CAF50;
+	border: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+
+#hero .btn:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.btn-engage:hover{
+	color: #FFFFFF;
+	background-color: #333;
+}.btn-engage{
+	padding: 12px 20px;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.65);
+	padding: 160px 0;
+}
+
+.section-padding{
+	padding: 80px 0;
+}
+.bg-gris{
+	background-color: var(--color-bg-gris);
+}
+#info h4{
+	color: #000000;
+	font-weight: 400;
+	font-size: 20px;
+	
+}
+#info p{
+	font-size: 17px;
+}
+
+
+.titulo{
+	font-size: 40px;
+	color: #303030;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.subtitle{
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#services{
+	background-color: #f8f8f8;
+}
+
+#services .service-info {
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+.service-info h4{
+	color: #000000;
+	font-size: 20px;
+}
+.service-info p{
+	font-size: 16px;
+}
+.service-info a{
+	color: #666666;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.service-info a:hover{
+	color: #4CAF50;
+}
+
+
+#our-secret .titulo{
+	text-align: left;
+	font-size: 32px;
+	margin-top: 60px;
+	
+}
+
+.lista-secret{
+	margin: 30px 0;
+	padding: 17px;
+}
+.lista-secret li{
+	margin: 15px;
+}
+
+#testimonials p{
+	background-color: #FFFFFF;
+	padding: 25px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+#testimonials h4{
+	font-size: 16px;
+	color: #686868;
+}
+#testimonials h5{
+	font-size: 15px;
+}
+
+#testimonials h4, #testimonials h5{
+	padding-left: 30px;
+}
+
+#testimonials i{
+	text-align: center;
+	font-size: 45px;
+	color: var(--color-verde);
+}
+
+
+#numbers {
+	text-align: center;
+}
+
+#numbers i{
+	font-size: 45px;
+	color: #999999;
+	margin-bottom: 20px;
+}
+
+#numbers h3{
+	font-size: 60px;
+	color: #333;
+	font-weight: 400;
+}
+#numbers p{
+	font-size: 22px;
+	color: #999999;
+	
+}
+
+#clients img{
+	filter: opacity(0.8);
+	transition: all 0.3s ease-in-out;
+	width: 
+	
+}
+#clients img:hover{
+	filter: opacity(1);
+	padding: 7px;
+}
+
+footer{
+	background-color: #191919;
+	color: #58606b;
+	padding: 20px 0;
+	font-size: 14px;
+	
+}
+
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	border-radius: 100% ;
+	color: #58606B;
+	font-size: 16px;
+
+}
+footer li a:hover{
+	background-color: #000000;
+	color: #fff;
+}
+footer li a.fb:hover{
+	background-color: #3b5958;
+}
+footer li a.in:hover{
+	background-color: #B4A800;
+}
+footer li a.tw:hover{
+	background-color: #38DBD8;
+}
+footer li a.lin:hover{
+	background-color: #002C84;
+}
+
+#title{
+	background-color: var(--color-bg-gris);
+	padding: 30px 0;
+}
+#title h1{
+	font-size: 30px;
+	color: #303030;
+}
+#title .breadcrumb{
+	margin-top: 10px;
+}
+#content .titulo{
+	text-align: left;
+	font-size: 35px;
+	
+}
+#content h3{
+	font-size: 22px;
+}
+.list-contact i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: var(--color-verde);
+	color: #fff;
+	border-radius: 100%;
+}
+.list-contact li{
+	margin-bottom: 20px;
+}
